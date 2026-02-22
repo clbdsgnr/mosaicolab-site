@@ -1,7 +1,10 @@
 import type { Metadata } from 'next'
 import { Poppins, EB_Garamond } from 'next/font/google'
+import { Analytics } from "@vercel/analytics/react"
 
 import './globals.css'
+
+<Analytics/>
 
 const poppins = Poppins({
   subsets: ['latin'],
